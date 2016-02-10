@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it
+
+when you initialize a repository, it can now be accessible from git bash 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+staging is like an intermidiate between a working directory and a repository. for one to move from a working directory to creating a repository, he/she must pass through staging area
