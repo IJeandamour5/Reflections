@@ -3,4 +3,14 @@ What happens when you initialize a repository? Why do you need to do it
 when you initialize a repository, it can now be accessible from git bash 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-staging is like an intermidiate between a working directory and a repository. for one to move from a working directory to creating a repository, he/she must pass through staging area
+staging is like an intermidiate between a working directory and a repository. for one to move from a working directory to creating a repository, he/she must pass through
+
+How can you use the staging area to make sure you have one commit per logical change?
+you can use staging area to make changes on one or many file before you make a commit. by also comparing the staging area to the working directory "git diff(without argument)" and staging area and the first commit, one can actually be sure is having a meaningfull commit  per logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+when you want to keep two versions of a file and make changes to one file without affecting the other, it is very helpfull to make branches
+
+How do the diagrams help you visualize the branch structure?
+by making diagrams of your history, you get a clear view of the sequences of your commits. it helps you also to know reachable and unreachable commit when using git log
+  
